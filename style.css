@@ -52,3 +52,89 @@ svg {
 .list-items {
   margin: 50px 0;
 }
+.main {
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+}
+.content {
+  background-color: #d4d4d4;
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  margin: 10px 40px;
+}
+
+.form-input {
+  width: 600px;
+  height: 30px;
+  background-color: #d4d4d4;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 200px;
+}
+
+.nav-bar img {
+  margin-left: 30px;
+  margin-right: 35px;
+}
+.nav-bar p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+  /* border: 1px solid; */
+}
+.user-profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.welcome-profile {
+  display: flex;
+  margin: 0 20px;
+  flex-direction: column;
+}
+.welcome-text {
+  font-size: 12px;
+}
+.user-profile-text {
+  font-size: 24px;
+}
+.user-profile img {
+  width: 72px;
+  height: 72px;
+}
+.buttons {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+}
+.buttons button {
+  background-color: #0ea5e9;
+  padding: 10px 30px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  margin: 15px 20px;
+  font-weight: 900;
+}
